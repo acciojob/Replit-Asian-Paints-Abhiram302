@@ -2,7 +2,7 @@
 
 
 const change = document.getElementById("change_button")
-const reset = document.getElementById("Reset")
+const reset = document.getElementById("reset_button")
 change.addEventListener("click",()=>{
 	for(let i=1; i<=9; i++){
 		document.getElementById(i.toString()).style.backgroundColor = "transparent"
