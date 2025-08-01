@@ -10,7 +10,7 @@ body{
 	gap: 15px;
 }
 
-#grid-container{
+.grid-container{
 	display: grid;
 	grid-template-rows: repeat(3,75px);
 	grid-template-columns: repeat(3,65px);
